@@ -18,11 +18,11 @@ Which of the following metrics would you choose to measure for this experiment a
 
 Any place "unique cookies" are mentioned, the uniqueness is determined by day. (That is, the same cookie visiting on different days would be counted twice.) User-ids are automatically unique since the site does not allow the same user-id to enroll twice.
 
-- Number of cookies: That is, number of unique cookies to view the course overview page. (dmin=3000)
+- Number of cookies: That is, number of unique cookies to view the course overview page. ```diff + (dmin=3000)```
 
 - Number of user-ids: That is, number of users who enroll in the free trial. (dmin=50)
 
-Number of clicks: That is, number of unique cookies to click the "Start free trial" button (which happens before the free trial screener is trigger). (dmin=240)
+- Number of clicks: That is, number of unique cookies to click the "Start free trial" button (which happens before the free trial screener is trigger). (dmin=240)
 
 Click-through-probability: That is, number of unique cookies to click the "Start free trial" button divided by number of unique cookies to view the course overview page. (dmin=0.01)
 
