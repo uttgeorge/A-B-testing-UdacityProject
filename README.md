@@ -18,7 +18,7 @@ Which of the following metrics would you choose to measure for this experiment a
 
 Any place "unique cookies" are mentioned, the uniqueness is determined by day. (That is, the same cookie visiting on different days would be counted twice.) User-ids are automatically unique since the site does not allow the same user-id to enroll twice.
 
-- Number of cookies: That is, number of unique cookies to view the course overview page. ```diff + (dmin=3000)```
+- Number of cookies: That is, number of unique cookies to view the course overview page. ```diff - red (dmin=3000)```
 
 - Number of user-ids: That is, number of users who enroll in the free trial. (dmin=50)
 
