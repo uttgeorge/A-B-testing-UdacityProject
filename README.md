@@ -1,17 +1,11 @@
 # Free Trial Screener
 
+At the time of this experiment, Udacity courses currently have two options on the course overview page: "start free trial", and "access course materials". If the student clicks "start free trial", they will be asked to enter their credit card information, and then they will be enrolled in a free trial for the paid version of the course. After 14 days, they will automatically be charged unless they cancel first. If the student clicks "access course materials", they will be able to view the videos and take the quizzes for free, but they will not receive coaching support or a verified certificate, and they will not submit their final project for feedback.
+In the experiment, Udacity tested a change where if the student clicked "start free trial", they were asked how much time they had available to devote to the course. If the student indicated 5 or more hours per week, they would be taken through the checkout process as usual. If they indicated fewer than 5 hours per week, a message would appear indicating that Udacity courses usually require a greater time commitment for successful completion, and suggesting that the student might like to access the course materials for free. At this point, the student would have the option to continue enrolling in the free trial, or access the course materials for free instead. This screenshot shows what the experiment looks like.
+The hypothesis was that this might set clearer expectations for students upfront, thus reducing the number of frustrated students who left the free trial because they didn't have enough time—without significantly reducing the number of students to continue past the free trial and eventually complete the course. If this hypothesis held true, Udacity could improve the overall student experience and improve coaches' capacity to support students who are likely to complete the course.
+The unit of diversion is a cookie, although if the student enrolls in the free trial, they are tracked by user-id from that point forward. The same user-id cannot enroll in the free trial twice. For users that do not enroll, their user-id is not tracked in the experiment, even if they were signed in when they visited the course overview page.
 
-
-
-
-
-# 果冻虾仁
-我几乎在所有平台上都叫做“果冻虾仁”，头像是一个大大的“绯村剑心”。因为技术人也要有自己的品牌嘛，虽然我不是技术大牛，但也很虚弱地想慢慢积累一些知名度。因此，你可以在知乎、简书、GitHub、CSDN上找到我。
-
-什么是果冻虾仁呢。这个词语是我高中时的QQ昵称。首先果冻和虾仁都是我个人较为喜爱的食品。但是将二者放到一起，是高中课堂上的某次发呆，或者说做梦：一个高脚杯里放着满满地果冻，然后表面上插着一个晶莹剔透的虾仁。十分无厘头的一个想法，但仅此而已还不足以让我使用这么久。后来我暗恋一个女生，每月我们学校放一次假，我们就会去学校外面买一些零食屯着，我每次肯定买果冻，然后塞一包到她的书桌里，再后来我发现有另外一个男生也向她献殷勤，他经常送她草莓，最后我发现这个女生爱吃草莓多一点。
-
-青春年少，付之一笑。
-![](https://pic4.zhimg.com/80/v2-b352b9be91b8ffc2ad283db9f9d9b8e1_hd.jpg)
+![](https://github.com/uttgeorge/abtesting_Free-Trial-Screener/blob/master/files/Final%20Project_%20Experiment%20Screenshot.png)
 
 
 
